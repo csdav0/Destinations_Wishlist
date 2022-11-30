@@ -1,2 +1,65 @@
-/* blank */
-this is my change
+:root {
+    --default-margin: 5px;
+    --default-padding: 15px;
+    --banner-area-height: 25vh;
+    --content-area-height: 75vh;
+}
+
+#banner_area {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid greenyellow;
+    background: rgba(128, 128, 128, 0.2);
+    height: var(--banner-area-height);
+    margin: var(--default-margin);
+    padding: var(--default-padding);
+}
+
+#content_area {
+    height: var(--content-area-height);
+}
+
+.red_box {
+    border: 7px solid red;
+    margin: 0px 30px 10px 25px;
+    height: 60vh;
+}
+
+#user_input_form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.stacked_up {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_box {
+    border: 7px solid blue;
+    margin: var(--default-margin);
+    padding: 5px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#pink_box {
+    border: 7px solid magenta;
+    margin: var(--default-margin);
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#yellow_box {
+    border: 7px solid yellow;
+    margin: var(--default-margin);
+    height: 100%;
+}
+
